@@ -5,7 +5,14 @@ Feature: User Login verification
     And I enter 'ateamtester@example.com' as valid login email in the SignIn page
     And I enter 'team1234' as valid login password in the SignIn page
     And I select the 'Sign in' button in the automationpractice page
-    Then I verify the title  in the automationpractice homepage
+    When I hover over women category and click it in the homepage
+    And I hover over the Blouse category and click it in the Womens page
+    And I select the blouse image and navigate to blouse product display page
+    And I Select the image of the white blouse in the blouse product display page
+    And I select the Add to cart option
+
+
+
 
 
   Scenario : Verify user is not able to login into automationpractice site for invalid credentials

@@ -1,4 +1,4 @@
-package Pages;
+package Pages.automation;
 
 import Helper.Misc;
 import Pages.WebCommands;
@@ -6,7 +6,8 @@ import org.openqa.selenium.By;
 import java.util.NoSuchElementException;
 import java.util.NoSuchElementException;
 
-public class LoginPage extends WebCommands {
+public class LoginPage extends WebComments{
+
 
         By signInButtonLocator=By.xpath("//a[contains(text(),\"Sign\")]");
         By loginEmailLocator=By.xpath("//input[@id='email']");

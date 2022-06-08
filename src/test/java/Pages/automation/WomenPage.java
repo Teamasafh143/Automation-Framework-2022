@@ -1,5 +1,5 @@
-package Pages;
-
+package Pages.automation;
+import Pages.WebCommands;
 import org.openqa.selenium.By;
 
 public class WomenPage extends WebCommands {
@@ -53,9 +53,9 @@ public class WomenPage extends WebCommands {
 
     public void verifyDeliveryOptionRadioButton(){
         String  checked;
-        String checked;
+        String Checked;
 
-        radioButtonCheck(deliveryOptionRadioButtonLocator,checked,checked);
+        radioButtonCheck(deliveryOptionRadioButtonLocator,checked,Checked);
     }
 
 }
